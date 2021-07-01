@@ -1,4 +1,4 @@
-https://leetcode.com/problems/fibonacci-number/
+https://leetcode.com/problems/fibonacci-number/ <br>
 509. Fibonacci Number
 
 ```js
@@ -19,12 +19,12 @@ function fib(n, left=0, right=1, round=0) {
   }
 }
 ```
-fib(4); count = 0 => 4
-fib(3); count = 4 => 7
-fib(2); count = 7 => 9
-fib(1); count = 9 => 10
-fib(0); count = 10;
------
+fib(4); count = 0 => 4 <br>
+fib(3); count = 4 => 7 <br>
+fib(2); count = 7 => 9 <br>
+fib(1); count = 9 => 10 <br>
+fib(0); count = 10; <br>
+
 fib(2);
 
 ```js
@@ -46,7 +46,7 @@ sum = 3; / l = 2; r = 3;
 sum = 5; / l = 3; r = 5;
 
 ```
- - 피보나치 단계별로 이해해보기
+### 피보나치 단계별로 이해해보기
 ```js
 // step1 - 함수로 반복을 해보자
 function fib() {
